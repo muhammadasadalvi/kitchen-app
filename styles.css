@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100%;
+}
+
+.main-header {
+    background-color: white;
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 6px 8px #fcf9f9;
+}
+
+.main-nav__items {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__brand a,
+.main-nav__item a {
+    list-style: none;
+    text-decoration: none;
+    margin: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.main-nav__brand a {
+    margin: 100px;
+}
+
+
+.banner {
+    background-image: url('https://www.w3schools.com/w3images/hamburger.jpg');
+    width: 100%;
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 3rem;
+    z-index: -1;
+}
+
+.banner p {
+    position: absolute;
+    bottom: 10px;
+    color: black;
+    margin-left: 170px;
+    font-size: 50px;
+
+}
+
+#about,
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8rem;
+    margin-top: 200px;
+}
+
+.about-section__img,
+.about-section__content,
+.menu-content,
+.menu-img {
+    width: 400px;
+    height: 600px;
+}
+
+.about-section__img img {
+    height: 600px;
+}
+
+.about-section__heading,
+.about-section__history {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-section__paragraph {
+    font-size: large;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.child-paragraph {
+    color: #a5a4a4;
+}
+
+.menu-content {
+    text-align: left;
+    margin-top: 150px;
+}
+
+.menu-content__item {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.menu-content__item h2 {
+    color: rgb(36, 35, 35);
+    margin-bottom: 10px;
+}
+
+.menu-img img {
+    width: 500px;
+    height: 600px;
+}
+
+.contact,
+.contact-content,
+.contact-address {
+    margin-top: 60px;
+    width: 600px;
+}
+
+.contact {
+    width: 70%;
+    margin-left: auto;
+}
+
+.form-control {
+    width: 100%;
+}
+
+hr {
+    width: 70%;
+    margin-left: 270px;
+}
+
+input, textarea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 12px 12px;
+    margin-top: 10px;
+    border: none;
+}
+
+input[type=text], input[type=date], input[type=textarea] {
+    width: 50%;
+    border-bottom: 1px solid gray;
+
+}
+
+textarea {
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 14px 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    color: rgb(71, 73, 73);
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #a5a4a4;
+    text-align: center;
+}
+
+div .copyright {
+    padding: 40px 40px;
+    /* margin-top: 20px; */
+}
